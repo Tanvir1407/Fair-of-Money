@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(80, 80, 80);
+}
+/* heading custom design */
+.heading{  
+    color:#ff9a17;
+    font-weight:bold;
+    margin: 40px 0;
+}
+/* full fit image */
+.feature-img{
+    max-width: 100%;
+    height: 100%;
+}
+/* calculate section bg color */
+.calc-div{
+    background-color: #fde1bbe8;
+}
+.form{
+    padding: 50px;
+}
+.calc-btn{
+    width: 30%;
+    margin: 0 auto;
+}
+.input-field{
+    width: 30%;
+}
+.saving{
+    width: 100%;
+    margin: 0 auto;
+}
+.saving-btn{
+    width: 30%;
+    margin-left: 10px;
+}
+.text-input{
+    line-height: 100%;
+    height: 100%;
+}
+.input{
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: gray;
+    
+}
+.input:focus{
+    border: none;
+    outline: none;
+}
