@@ -45,11 +45,6 @@ function settleAccounts( addCondition) {
         
     }
 }
-
-// error handaler function
-function errorHandaler() {
-    
-}
 // Calculate Button 
 document.getElementById('money-calculate').addEventListener('click', function () {
     settleAccounts( true);
@@ -58,11 +53,6 @@ document.getElementById('money-calculate').addEventListener('click', function ()
 document.getElementById('parcentage-btn').addEventListener('click', function () { 
     settleAccounts( false);   
 }) 
-
-
-
-
-
 
 /****************
  * Error handel * 
