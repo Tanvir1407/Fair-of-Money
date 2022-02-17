@@ -22,7 +22,7 @@ function settleAccounts( addCondition) {
             document.getElementById('balance').innerText = currentBalance;
         }
         else {
-            window.alert('Less than Income costs!!!!')
+            window.alert('Less than your income costs!!')
         }
     }
     else {
